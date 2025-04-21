@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <!-- This is where welcome back text are placed -->
+        <div class="text-container">
+          <h2>Welcome Back</h2>
+          <p>Please enter your details to sign in</p>
+        </div>
+        <!-- Font awesome icons are placed here -->
+        <div class="auth-container">
+          <div class="sm-container">
+            <i class="fa-brands fa-google" style="color: #ff0000"></i>
+          </div>
+          <div class="sm-container">
+            <i class="fa-brands fa-apple"></i>
+          </div>
+          <div class="sm-container">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+        <!-- horizontal line to segregate auth login vs manual login -->
+        <div class="line-container">
+          <hr />
+          <p>or</p>
+          <hr />
+        </div>
+        <form>
+          <div class="loginForm-container">
+            <label>Email address</label>
+            <input type="email" placeholder="Enter your email" />
+            <label>Password</label>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="misc-container">
+            <div class="remember-checkbox">
+              <input type="checkbox" />
+              <p>Remember for 30days</p>
+            </div>
+            <div class="forgotPass">
+              <a>Forgot Password?</a>
+            </div>
+          </div>
+          <div class="signIn-container">
+            <button>Sign in</button>
+          </div>
+          <div class="createAcc">
+            <p>Don't have an account?</p>
+            <a>Create an account</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
